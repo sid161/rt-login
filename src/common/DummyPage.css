@@ -1,0 +1,28 @@
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.pagination {
+  margin-right: 15px;
+}
+/* .column {
+    flex-direction: column;
+  } */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  max-width: 50%;
+  margin: 10px;
+  /* flex: 1 1 0px; */
+}
+.parent {
+  display: flex;
+}
+
+.page {
+  margin-top: 20px;
+}
