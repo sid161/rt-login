@@ -21,7 +21,7 @@ export function Posts() {
     });
   }, []);
 
-  const userPerPage = 10;
+  const userPerPage = 8;
   const pagesVisited = pageNumber * userPerPage;
 
   const uiData = () => {
@@ -57,13 +57,14 @@ export function Posts() {
   return (
     <div style={{ padding: 20 }}>
       <Input
+        className="search"
         icon="search"
         placeholder="Search By title"
         onChange={(e) => searchItems(e.target.value)}
       />
       <Card.Group
-        className="flex column wrap"
-        itemsPerRow={2}
+        className="flex wrap "
+        itemsPerRow={4}
         style={{ marginTop: 20 }}
       >
         {uiData().data.map((item) => {

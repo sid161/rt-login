@@ -6,23 +6,35 @@
 }
 .pagination {
   margin-right: 15px;
+  cursor: pointer;
 }
 /* .column {
     flex-direction: column;
   } */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.1);
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: white;
   max-width: 50%;
   margin: 10px;
+  flex: 0 1 20%;
+  border-radius: 20px;
   /* flex: 1 1 0px; */
 }
 .parent {
   display: flex;
 }
+.center {
+  text-align: center;
+}
 
 .page {
   margin-top: 20px;
+}
+.search {
+  padding: 2rem;
+}
+.wrap {
+  flex-wrap: wrap;
 }
